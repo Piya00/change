@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>convert</title>
+<style type="text/css">
+	
+	body{
+		background-color: lime;
+		color: darkblue;
+		font-size: 20px;
+	}
+
+
+
+</style>
+<script type="text/javascript">
+	
+function cm(){
+
+	let a=document.getElementById('cm').value
+	let m=a/100
+	alert(`${a} cm = ${m} m`)
+
+
+}
+function m(){
+
+	let m=document.getElementById('m').value
+	let a=m*100
+	alert(`${m} m = ${a} cm`)
+
+
+}
+function km(){
+
+	let m=document.getElementById('km').value
+	let a=m*0.621371192
+	alert(`${m} km = ${a} Miles`)
+
+
+}
+function Miles(){
+
+	let m=document.getElementById('Miles').value
+	let a=m/0.621371192
+	alert(`${m} Miles = ${a} km`)
+
+
+}
+function MM(){
+
+	let m=document.getElementById('MM').value
+	let a=m*10
+	alert(`${m} CM = ${a} MM`)
+
+
+}
+function CM(){
+
+	let m=document.getElementById('CM').value
+	let a=m/10
+	alert(`${m} MM = ${a} CM`)
+
+
+}
+function Inches(){
+
+	let m=document.getElementById('Inches').value
+	let a=m*0.393700787
+	alert(`${m} Cm = ${a} Inches`)
+
+
+}
+function Feet(){
+
+	let m=document.getElementById('Feet').value
+	let a=m*0.032808399
+	alert(`${m} Cm = ${a} Feet`)
+
+
+}
+function cmi(){
+
+	let m=document.getElementById('cmi').value
+	let a=m/0.393700787
+	alert(`${m} Inches = ${a} Cm`)
+
+
+}
+function cmf(){
+
+	let m=document.getElementById('cmf').value
+	let a=m/0.032808399
+	alert(`${m} Feet = ${a} Cm`)
+
+
+}
+function Celsius(){
+
+	let m=document.getElementById('Celsius').value
+	let a=(m*9/5)+32
+	alert(`${m} Celsius = ${a} Fahrenheit`)
+
+
+}
+function Fahrenheit(){
+
+	let m=document.getElementById('Fahrenheit').value
+	let a=(m-32)/(9/5)
+	alert(`${m} Fahrenheit = ${a} celsius`)
+
+
+}
+</script>
+</head>
+<body>
+CM to M <input type="number" id="cm"><br>
+	
+	<button onclick="cm()">Convert</button><br><hr>
+
+M to CM <input type="number" id="m"><br>
+	<button onclick="m()">Convert</button><br><hr>
+
+KM to Miles <input type="number" id="km"><br>
+	<button onclick="km()">Convert</button><br><hr>
+
+Miles to KM <input type="number" id="Miles"><br>
+	<button onclick="Miles()">Convert</button><br><hr>
+
+CM to MM <input type="number" id="MM"><br>
+	<button onclick="MM()">Convert</button><br><hr>
+
+MM to CM <input type="number" id="CM"><br>
+	<button onclick="CM()">Convert</button><br><hr>
+
+CM to Inches <input type="number" id="Inches"><br>
+	<button onclick="Inches()">Convert</button><br><hr>
+
+CM to Feet <input type="number" id="Feet"><br>
+	<button onclick="Feet()">Convert</button><br><hr>
+
+Inches to CM <input type="number" id="cmi"><br>
+	<button onclick="cmi()">Convert</button><br><hr>
+
+Feet to CM <input type="number" id="cmf"><br>
+	<button onclick="cmf()">Convert</button><br><hr>
+
+Celsius to Fahrenheit <input type="number" id="Celsius"><br>
+	<button onclick="Celsius()">Convert</button><br><hr>
+
+Fahrenheit to celsius <input type="number" id="Fahrenheit"><br>
+	<button onclick="Fahrenheit()">Convert</button><br><hr>
+
+
+
+
+
+
+</body>
+</html>
